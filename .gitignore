@@ -12,4 +12,8 @@
 *.fig
 
 # Avoid your project being littered with annoying .DS_Store files!
+node_modules
+gulpfile.js
+package.json
+package-lock.json
 .DS_Store

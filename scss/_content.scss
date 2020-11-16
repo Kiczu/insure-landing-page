@@ -1,0 +1,49 @@
+.aboutUs {
+    padding-top: 308px;
+    background-color: #fff;
+}
+.aboutUs__icons {
+    display: flex;
+    gap: 60px;
+}
+.aboutUs__title {
+    
+    .title {
+        color: var(--accent-color);
+        padding: 100px 0;
+        font-family: var(--DM-font);
+    }
+    &::before {
+        @include line();
+        background-color: var(--accent-color);
+    }
+}
+.aboutUs__icons-content {
+
+    > * {
+        margin: 10px 0;
+    }
+    .title__icons {
+        font-family: var(--DM-font);
+        font-size: 1.75rem;
+    }
+    .content__icons {
+        color: var(--second-accent-color);
+        line-height: 1.75rem;
+        font-size: 1.1rem;
+    }
+}
+.aboutUs__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: var(--accent-color);
+    margin: 200px 0;
+    padding: 70px 100px;
+    .dashes-box {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
